@@ -23,7 +23,7 @@ The hypothesis of this machine learning project is that areas of high traffic fl
 3. Use regression models to determine the coefficients for the traffic variables and assess their significance in predicting the number of charging points per location.
 
 ## Data Collection
-<img align="right" height="300" src="./images/heatmap.png">
+<img align="right" height="300" src="./images/heatmap.png" title="title">
 <em>image_caption</em>
 The data on charging points was sourced from the National Chargepoint Registry (NCR), a government database providing information on publicly accessible charge points within the UK. I then aggregated the data by outcode - the first half of a postal code e.g. ‘NW1’. To determine the factors, other than traffic, that could impact the distribution of charging points, I gathered additional data regarding each outcode. This included data from the Office for National Statistics (ONS), about the local authorities and the rural/urban classification of each area. As the cost of electric vehicles remains high, I was also interested in exploring whether affluence impacted the distribution of charging points. To investigate this, I calculated the average house price per square metre within each outcode using House Price Paid data and Energy Performance of Buildings data.
 
