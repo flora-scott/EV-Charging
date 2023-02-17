@@ -2,6 +2,9 @@
 ![alt text](./images/public-ev-charging-networks-c63e58c0.jpeg "Electric car charging station")
 
 From [Zap-map](https://www.zap-map.com/)
+
+This project was completed as part of the General Assembly immersive data science course.
+
 ## Background
 The demand for electric cars has grown exponentially in recent years, with rising environmental pressure, economic incentives and advancements in battery technology driving the transition away from traditional petrol and diesel engines. In January 2023, one out of every five new cars registered in the UK was either a plug-in hybrid vehicle (PHEV) or battery electric vehicle (BEV), representing a significant increase from the previous year. Despite this surge in the number of electric vehicles on the road, there remains a question as to whether the deployment of supporting charging infrastructure is keeping pace with the demand.
 
