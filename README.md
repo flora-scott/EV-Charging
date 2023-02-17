@@ -5,7 +5,7 @@ From [Zap-map](https://www.zap-map.com/)
 
 This project was completed as part of the General Assembly immersive data science course.
 
-## Contents
+## Table of Contents
 [Background](#Background)  
 [Goals of the Project](#Goals-of-the-Project)
 [Data Collection](#Data-Collection)
@@ -16,10 +16,10 @@ The demand for electric cars has grown exponentially in recent years, with risin
 
 The 2021 Competition and Markets Authority (CMA) report highlights the need for charging infrastructure to increase by at least tenfold by 2030. The report also notes the potential risk of "charging deserts" in certain areas across the UK, which makes it evident that the current infrastructure will not be sufficient in the near future. Given this information, it is important to evaluate the effectiveness of the strategy that has been employed until now in deciding the location of charging points. Through this project I aimed to assess the current placement of charging points and determine whether their installation is aligned with areas of high traffic density, where it can be assumed that demand is at its highest.
 
-## Data Collection
+## Goals of the Project
 The hypothesis of this machine learning project is that areas of high traffic flow will correspond with a higher concentration of electric car charging points. In order to test this hypothesis, my project methodology took the following basic outline:
-Aggregate charging stations in England by location.
-Determine a metric of traffic flow around each location.
-Use regression models to determine the coefficients for the traffic variables and assess their significance in predicting the number of charging points per location.
+1. Aggregate charging stations in England by location.
+2. Determine a metric of traffic flow around each location.
+3. Use regression models to determine the coefficients for the traffic variables and assess their significance in predicting the number of charging points per location.
 
 
