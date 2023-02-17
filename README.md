@@ -8,7 +8,8 @@ This project was completed as part of the General Assembly immersive data scienc
 ## Table of Contents
 [Background](#Background)  
 [Goals of the Project](#Goals-of-the-Project)  
-[Data Collection](#Data-Collection)
+[Data Collection](#Data-Collection)  
+[Data Cleaning](#Data-Cleaning)  
 
 ## Background
 Background
@@ -27,4 +28,13 @@ The hypothesis of this machine learning project is that areas of high traffic fl
 The data on charging points was sourced from the National Chargepoint Registry (NCR), a government database providing information on publicly accessible charge points within the UK. I then aggregated the data by outcode - the first half of a postal code e.g. ‘NW1’. To determine the factors, other than traffic, that could impact the distribution of charging points, I gathered additional data regarding each outcode. This included data from the Office for National Statistics (ONS), about the local authorities and the rural/urban classification of each area. As the cost of electric vehicles remains high, I was also interested in exploring whether affluence impacted the distribution of charging points. To investigate this, I calculated the average house price per square metre within each outcode using House Price Paid data and Energy Performance of Buildings data.
 
 The crux of the data collection for this project was sourcing the traffic data. Given the talk of "range anxiety" as a major factor preventing people from adopting electric vehicles, I decided to focus on long-range traffic, specifically along motorways. To do this, I web-scraped download links from Highways England, which provided me with over 120,000 CSV files of time-stamped traffic data for various locations along 153 motorways and A-roads in England. I processed this data to determine the average number of cars per minute at over 9000 locations along these roads and used regex to extract the coordinates in longitude and latitude. Finally, using mapbox API, I determined the closest traffic site to each outcode and used the distance and average number of cars to  find a measure of the traffic flow around the outcode. 
+
+## Data Cleaning
+Data cleaning included, but was not limited to:
+
+* Removing missing values.
+* Standardising the format of variables, e.g. inconsistencies in how the charge point device owner name was written.
+* Deriving additional features of interest from the data, which were not originally present in the dataset.
+* Performing a sanity check of charge point outcodes against a validated list. Incorrect outcodes were then derived from the longitude and latitude.
+
 
