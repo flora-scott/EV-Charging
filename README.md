@@ -7,7 +7,7 @@ This project was completed as part of the General Assembly immersive data scienc
 
 ## Table of Contents
 [Background](#Background)  
-[Goals of the Project](#Goals-of-the-Project) 
+[Goals of the Project](#Goals-of-the-Project)  
 [Data Collection](#Data-Collection)
 
 ## Background
