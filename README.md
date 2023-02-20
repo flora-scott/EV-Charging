@@ -39,5 +39,6 @@ Data cleaning included, but was not limited to:
 * Performing a sanity check of charge point outcodes against a validated list. Incorrect outcodes were then derived from the longitude and latitude.
 
 ![alt text](./images/charging_plots.png "Electric car charging station")
+![alt text](./images/charging_dist.png "Electric car charging station")
 
 
