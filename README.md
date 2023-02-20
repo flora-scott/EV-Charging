@@ -53,7 +53,7 @@ Initial analysis of the traffic data revealed almost no correlation between the 
   <img src="./images/traffic_relationship.png">
 </p>  
 
-Further exploration of other variables through EDA revealed distinct differences between urban and rural areas, as well as between affluent and non-affluent regions. However, the key insight was that the areas with the highest density of charging points corresponded with those governed by councils who received government funding to build EV infrastructure. Although there are multiple factors at play, it appears that public policy has been a key driving force behind the distribution of charging points thus far.
+Further exploration of other variables through EDA revealed distinct differences between urban and rural areas, as well as between affluent and non-affluent regions. Additionally, an interesting insight was that high concentrations of charging points were frequently found within specific local councils. Specifically, districts and councils that received government funding to construct electric vehicle (EV) infrastructure, such as the Go Ultra Low City Scheme and the Ultra Low Emission Taxi Infrastructure Scheme, had the highest number of charging points. Although there are multiple factors at play, it appears that public policy has been a key driving force behind the distribution of charging points thus far.
 
 ![alt text](./images/rural_urban.png "Distributions of charging points in rural vs urban areas")
 
