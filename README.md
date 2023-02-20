@@ -40,6 +40,7 @@ Data cleaning included, but was not limited to:
 
 ## Exploratory Data Analysis (EDA)
 ![alt text](./images/charging_plots.png "Electric car charging station")
-![alt text](./images/charging_dist.png "Electric car charging station")
+![alt text](./images/charging_dist.png "Distribution of charging points in England")
+
 
 
