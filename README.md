@@ -50,6 +50,23 @@ Initial analysis of the traffic data revealed almost no correlation between the 
 
 Further exploration of other variables through EDA revealed distinct differences between urban and rural areas, as well as between affluent and non-affluent regions. However, the key insight was that the areas with the highest density of charging points corresponded with those governed by councils who received government funding to build EV infrastructure. Although there are multiple factors at play, it appears that public policy has been a key driving force behind the distribution of charging points thus far.
 
+<p align="center">
+  <img src="./images/rural_urban.png">
+</p> 
+
+<p align="center">
+  <img src="./images/london_maps.png">
+</p> 
+
+
+
+
+
+{:style="text-align:center;"}
+  ![placeholder](./images/traffic_relationship.png "Relationship between traffic flow and charging points")
+
+
+
 ![alt text](./images/rural_urban.png "Distributions of charging points in rural vs urban areas")
 ![alt text](./images/london_maps.png "Charging points in London")
 
