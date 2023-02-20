@@ -39,7 +39,7 @@ Data cleaning included, but was not limited to:
 * Performing a sanity check of charge point outcodes against a validated list. Incorrect outcodes were then derived from the longitude and latitude.
 
 ## Exploratory Data Analysis
-![alt text](./images/charging_plots.png "Electric car charging station")
+![alt text](./images/charging_plots.png "Charging points in England")
 ![alt text](./images/charging_dist.png "Distribution of charging points in England")
 
 
