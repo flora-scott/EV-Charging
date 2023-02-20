@@ -10,7 +10,7 @@ This project was completed as part of the General Assembly immersive data scienc
 [Goals of the Project](#Goals-of-the-Project)  
 [Data Collection](#Data-Collection)  
 [Data Cleaning](#Data-Cleaning)  
-[Exploratory Data Analysis (EDA)](#Exploratory-Data-Analysis-(EDA)) 
+[Exploratory Data Analysis](#Exploratory-Data-Analysis) 
 
 ## Background
 Background
@@ -38,7 +38,7 @@ Data cleaning included, but was not limited to:
 * Deriving additional features of interest from the data, which were not originally present in the dataset.
 * Performing a sanity check of charge point outcodes against a validated list. Incorrect outcodes were then derived from the longitude and latitude.
 
-## Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis
 ![alt text](./images/charging_plots.png "Electric car charging station")
 ![alt text](./images/charging_dist.png "Distribution of charging points in England")
 
